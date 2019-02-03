@@ -115,6 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bintree.cpp" />
+    <ClCompile Include="lab2.cpp" />
+    <ClCompile Include="nodedata.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bintree.h" />
+    <ClInclude Include="nodedata.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
