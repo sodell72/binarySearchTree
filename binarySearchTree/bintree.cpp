@@ -379,7 +379,7 @@ bool BinTree::subTreeEqual(const Node * first, const Node * second) const
 		return true;
 	} else if (first != nullptr && second != nullptr)
 	{
-		if (first->data == second->data)
+		if (*first->data == *second->data)
 		{
 			bool firstResult = subTreeEqual(first->left, second->left);
 			bool secondResult = subTreeEqual(first->right, second->right);
