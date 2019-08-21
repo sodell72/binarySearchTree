@@ -1,0 +1,6 @@
+Sean O'Dell
+CSS 502
+
+Created Binary Search Tree with default constructor, deep copy constructor, overload operators, accessors, and several other functions.
+
+Can convert bst to arrary and array to bst.
